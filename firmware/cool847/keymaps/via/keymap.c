@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,KC_BSPC,\
         KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_ENT, \
-        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,    KC_RSFT, \
+        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,    KC_RSFT, \
         KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT \
     ),
    /* FN */
@@ -60,10 +60,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * +-----------+           +-----+     +-----------+     +-----------------+
     */  
     [_FN] = LAYOUT(
-        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,KC_BSPC,\
-        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_ENT, \
-        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,    KC_RSFT, \
-        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT \
+        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,\
+        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_BSPC, \
+        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,  KC_ENT,  \
+        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT,  KC_RSFT \
     ),
     /* LOWER */
     /* +-----------------------------------------------------------------------+
@@ -77,10 +77,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * +-----------+           +-----+     +-----------+     +-----------------+
     */  
     [_LOWER] = LAYOUT(
-        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,KC_BSPC,\
-        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_ENT, \
-        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,    KC_RSFT, \
-        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT \
+        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,\
+        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_BSPC, \
+        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP, KC_ENT,   \
+        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT KC_RSFT\
     ),
     /* UPPER */
     /* +----------------------------------------------------------------------------------------+
@@ -94,10 +94,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * +--------------+                +-------+       +---------------+       +-----------------+
     */  
     [_UPPER] = LAYOUT(
-        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,KC_BSPC,\
-        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_ENT, \
-        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,    KC_RSFT, \
-        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT \
+        KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,     KC_BSPC,\
+        KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_MINUS, KC_BSPC, \
+        KC_LSFT, KC_Z,    KC_X,    KC_C,    LT(_UPPER,KC_V),LT(_LOWER,KC_B),LT(_LOWER,KC_B),LT(_FN,KC_N),KC_M,    KC_COMM, KC_DOT,  KC_UP,  KC_ENT,  \
+        KC_LGUI, KC_LALT,          KC_SPACE,LT(_FN,KC_SPACE),LT(_LOWER,KC_ENTER),LSFT_T(KC_SPACE),  KC_LEFT,KC_DOWN,KC_RIGHT,  KC_RSFT\
     )
 };
 
