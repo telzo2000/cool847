@@ -45,6 +45,7 @@ cool847がケース全てに使えるか確認することは、個人の裁量�
 最初に、cool847にREMAP用のhexファイル「[cool847_via.hex](https://github.com/telzo2000/cool847/tree/main/firmware/cool847)」
 をダウンロードしてQMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
 　[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+<br>
 QMK Toolboxの使い方は詳しく書きませんが、REMAP用のhexファイルをダウンロードして、「Local File」で選択してください。pro microをPCに接続し、リセットボタンを押して書き込みます。（リセットボタンをダブルクリックしないと書き込めないパターンのものもあります）<br>
 次にgoogle chromeが動くパソコンとcool847をUSBケーブルでつなぎます。<br>
 そのあと、[REMAP](https://remap-keys.app/configure)にアクセスして、 
