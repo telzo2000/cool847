@@ -1,6 +1,5 @@
 # cool847ビルドガイド
 
-執筆中
 ## ◯同封されているもの
 
 スイッチプレート　１枚<br>
@@ -36,11 +35,24 @@ pro micro １個<br>
 ケース
 ※GH60系60％キーボードケースを使うことを前提になっています。
 国内では[遊舎工房](https://shop.yushakobo.jp)や[TALP KEYBOARDs](https://talpkeyboard.stores.jp)等で、海外では[Ali Expresse](https://best.aliexpress.com/)等で同じようなケースを材質ごとに、見つけることができます。
-現在、遊舎工房やTALP KEYBOARDsにあるプラスチックケース、木製ケース、KBDFansのTOFUケース、MelGeek mojo60ケース、LightEdgeケースでの使用は確認しました。
+現在、遊舎工房やTALP KEYBOARDsにあるプラスチックケース（※１）、木製ケース、KBDFansのTOFUケース、MelGeek mojo60ケース、LightEdgeケースでの使用は確認しました。
 cool847がケース全てに使えるか確認することは、個人の裁量を超えます。購入者の自己責任でお願いします。
+<br>
+※１　手元にある、以前遊舎工房で購入した透明プラスチックケースと、
+最近TALP KEYBOARDsで購入したINK黒色のプラスチックケースは、
+見た目が同じなので、構造も同じと思っていました。
+しかし、内側の形状が違うことがわかりました。<br>
+両者のホームページで使用されている画像は、同じ形状のものです。
+最購入したTALP KEYBOARDsのプラスチックケースは、[KBDfans](https://kbdfans.com/collections/all/products/60-ink-black-plastic-case-1?_pos=7&_fid=ee5e5c1cb&_ss=c
+)で取り扱っている、新しい形状のものでした。<br>
+新しい形状のプラスチックケースは、問題なく使えます。<br>
+古い形状のプラスチックケースの場合は、pro microに差し込む、マイクロUSB端子（オス）付近が干渉します。
+ケースの一部を改造が必要となります。
+<br>
 
 ## ◯ファームウェア
-<br>　このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
+
+このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
 [REMAP](https://remap-keys.app/configure)でキーレイアウトが編集できます。使い方は次の通りです。<br>
 最初に、cool847にREMAP用のhexファイル「[cool847_via.hex](https://github.com/telzo2000/cool847/tree/main/firmware/cool847)」
 をダウンロードしてQMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
