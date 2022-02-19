@@ -33,9 +33,12 @@ pro micro １個<br>
 
 ## ◯別途に購入するもの（3）
 ケース
-※GH60系60％キーボードケースを使うことを前提になっています。
+<br>
+※GH60系60％キーボードケース（POKER互換とも）を使うことを前提になっています。
 国内では[遊舎工房](https://shop.yushakobo.jp)や[TALP KEYBOARDs](https://talpkeyboard.stores.jp)等で、海外では[Ali Expresse](https://best.aliexpress.com/)等で同じようなケースを材質ごとに、見つけることができます。
+<br>
 現在、遊舎工房やTALP KEYBOARDsにあるプラスチックケース（※１）、木製ケース、KBDFansのTOFUケース、MelGeek mojo60ケース、LightEdgeケースでの使用は確認しました。
+<br>
 cool847がケース全てに使えるか確認することは、個人の裁量を超えます。購入者の自己責任でお願いします。
 <br>
 ※１　手元にある、以前遊舎工房で購入した透明プラスチックケースと、
