@@ -137,8 +137,11 @@ pro microを装着したさ、pro microの基板がたくさん載っている�
 
 ウレタンケーブルや[マイクロUSB端子（オス）](https://akizukidenshi.com/catalog/g/gC-07666/)で作成する場合、
 ドーターボードの作成は[こちら](https://github.com/telzo2000/Hello_keyboard/blob/main/dbforcool844/buildlog.md)になります。
+<br>
 （令和3年10月27日追記）取り付けの際、PCBとUSBタイプC基板との間隔を３〜４mmにしてください。
+<br>
 この間隔は、ケースのUSB挿し込み口と位置を合わせてからハンダ付けをしてください。
+<br>
 次の画像（試作品）を参考にしてください。<br>
 
 ![](img/IMG_4257.jpg)
